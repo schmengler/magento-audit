@@ -24,3 +24,14 @@ When it's done, you will find the results in `var/audit`:
  - `rewrites.csv`: List of all class rewrites
  - `rewrite-conflicts.xml`: Conflicting class rewrites
  - `phpcs.csv`: Report from code sniffer about coding standard violations and possible problems
+
+## License
+
+MIT
+ 
+## Thanks To
+
+- Christian Münch for [n98-magerun](http://magerun.net/)
+- Kalen Jordan for his [magerun-addons](https://github.com/kalenjordan/magerun-addons)
+- Fabrizio Branca for the [Magento Project Mess Detector](https://github.com/aoepeople/mpmd)
+- The Magento ECG for their [Magento Code Sniffer](https://github.com/magento-ecg/coding-standard)
