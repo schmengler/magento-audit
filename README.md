@@ -6,7 +6,7 @@ The `generate-reports.sh` script generates various reports on a Magento installa
 
 Copy the files of this repository into a Magento installation (Using a development environment and not the live system is strongly recommended):
 
-    wget https://github.com/schmengler/magento-audit/tarball/master -O  | tar -xz
+    wget https://github.com/schmengler/magento-audit/tarball/master -O - | tar -xz
 
 Run the script:
 
