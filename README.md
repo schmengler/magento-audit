@@ -25,6 +25,14 @@ When it's done, you will find the results in `var/audit`:
  - `rewrite-conflicts.xml`: Conflicting class rewrites
  - `phpcs.csv`: Report from code sniffer about coding standard violations and possible problems
 
+### Global Usage
+
+You can also put magento-audit outside of a Magento repository, for example in your home directory. Then you need to specify the Magento root directory as follows:
+
+    ./generate-reports.sh -r /path/to/magento
+
+The reports will still be gathered in `var/audit` within the Magento root
+
 ## License
 
 MIT
