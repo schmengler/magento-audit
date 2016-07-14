@@ -36,4 +36,4 @@ bin/n98-magerun.phar $MAGERUN_PARAM mpmd:codepooloverrides ${MAGENTO_ROOT}var/au
 bin/n98-magerun.phar $MAGERUN_PARAM mpmd:corehacks ~/magento-$MAGENTO_VERSION/magento ${MAGENTO_ROOT}var/audit/corehacks.html
 bin/n98-magerun.phar $MAGERUN_PARAM dev:module:rewrite:list --format=csv > ${MAGENTO_ROOT}var/audit/rewrites.csv
 bin/n98-magerun.phar $MAGERUN_PARAM dev:module:rewrite:conflicts --log-junit=${MAGENTO_ROOT}var/audit/rewrite-conflicts.xml
-bin/phpcs.phar --report=csv --report-file=${MAGENTO_ROOT}var/audit/phpcs.csv --ignore=code/core --standard=~/.phpcs/Ecg ${MAGENTO_ROOT}app
+bin/phpcs.phar --report=csv --report-file=${MAGENTO_ROOT}var/audit/phpcs.csv --ignore=code/core --standard=~/.phpcs/Ecg/Ecg ${MAGENTO_ROOT}app
